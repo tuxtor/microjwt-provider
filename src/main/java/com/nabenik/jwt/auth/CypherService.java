@@ -32,7 +32,7 @@ public class CypherService {
 
         MPJWTToken token = new MPJWTToken();
         token.setAud("burgerGt");
-        token.setIss("https://csc.nabenik.com");  // Must match the expected issues configuration values
+        token.setIss("https://burger.nabenik.com");  // Must match the expected issues configuration values
         token.setJti(UUID.randomUUID().toString());
 
         token.setSub(subject);
